@@ -344,7 +344,7 @@ ax.set_ylabel('$Y$', fontsize=20)
 info = GraphInfo([0, 0, 0], 0)  # store r and poi
 
 root = tk.Tk()
-root.title("Amogus")
+root.title("Visualizer")
 
 canvas = FigureCanvasTkAgg(fig, master=root)
 canvas.draw()
@@ -355,10 +355,6 @@ graph_control = tk.Frame(root)
 
 toolbar = NavigationToolbar2Tk(canvas, root, pack_toolbar=False)
 toolbar.update()
-
-# canvas.mpl_connect(
-#     "key_press_event", lambda event: print(f"you pressed {event.key}"))
-# canvas.mpl_connect("key_press_event", key_press_handler)
 
 button_quit = ttk.Button(master=root, text="Quit", command=root.destroy)
 radius_slider = tk.Scale(graph_control, from_=1, to=20, orient=tk.HORIZONTAL, 
