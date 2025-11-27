@@ -1,3 +1,5 @@
+note: despite the commit dates suggesting otherwise, this is something i wrote nearly four years ago (2022). thus, the quality of code and robustness of the program is not fantastic (not that my python is any more readable now). 
+
 # Vector and Osculating Sphere Visualizer
 An interactive app that given a parameterized function and a point of interest (POI), visualizes tangent, normal, binormal vectors, tangent, normal, and binormal vectors, and the osculating sphere
 
